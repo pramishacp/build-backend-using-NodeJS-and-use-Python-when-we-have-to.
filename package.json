@@ -1,0 +1,23 @@
+{
+  "name": "build-backend-using-NodeJS-and-use-Python-when-we-have-to.",
+  "version": "1.0.0",
+  "description": "So what if we could build our backend mostly using NodeJS and only use Python when we have to. We can use child process in Node.JS to run a python script when needed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pramishacp/build-backend-using-NodeJS-and-use-Python-when-we-have-to..git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pramishacp/build-backend-using-NodeJS-and-use-Python-when-we-have-to./issues"
+  },
+  "homepage": "https://github.com/pramishacp/build-backend-using-NodeJS-and-use-Python-when-we-have-to.#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
