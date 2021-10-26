@@ -5,7 +5,7 @@ const port = 3000
 app.get('/', (req, res) => {
   var largeDataSet = [];
   // spawn new child process to call the python script
-  const python = spawn('python', ['script3.py']);
+  const python = spawn('python3', ['script3.py']);
   // collect data from script
   python.stdout.on('data', function (data) {
     console.log('Pipe data from python script ...');
